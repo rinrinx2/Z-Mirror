@@ -18,6 +18,4 @@ jobs:
           region: "us"
         env:
           HD_CONFIG_FILE_URL: ${{secrets.CONFIG_FILE_URL}}
-          HD_LEECH_LOG: ${{secrets.LEECH_LOG}}
-          HD_GDRIVE_FOLDER_ID: ${{secrets.GDRIVE_FOLDER_ID}}
           
